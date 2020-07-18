@@ -1,0 +1,332 @@
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Poiret One', cursive;*/
+/*font-family: 'Cabin', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*header start*/
+/*navbar*/
+header{
+	padding: 10px 0;
+	background-color: #898884;
+	background-image: url(../images/company-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+.menu ul li a{
+	padding: 0 15px !important;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff !important;
+	text-transform: uppercase;
+	transition: .3s linear;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: 	#FFFF00 !important;
+}
+/*banner*/
+.b-content{
+	margin-left: 15px;
+	padding: 130px 0 200px;
+}
+.b-content h1{
+	margin-bottom: 0;
+	font-family: 'Cabin', sans-serif;
+	font-size: 60px;
+	color: #fff;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	line-height: 65px;
+}
+.b-content p{
+	margin: 30px 0 70px;
+	margin-right: 100px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+	word-spacing: 3px;
+}
+.btn-submit{
+	padding: 10px 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	background-color: #52CA91;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 3px;
+	transition: .3s linear;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+}
+.btn-submit:hover{
+	color: 	#010101 !important;
+	background-color: #FFFF00;
+}
+/*header end*/
+
+/*features start*/
+.features{
+	padding: 100px 0;
+}
+.f-title{
+	margin-bottom: 70px;
+}
+.t-h1{
+	margin: 0;
+	font-family: 'Cabin', sans-serif;
+	font-size: 48px;
+	color: #000000;
+	text-align: center;
+}
+.f-icon{
+	text-align: center;
+}
+.f-icon a{
+	padding: 20px;
+	font-size: 32px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #36c36e;
+	border: none;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	border-radius: 50%;
+	transition: .3s linear;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+}
+.f-icon i{}
+.f-icon a:hover{
+	color: 	#010101 !important;
+	background-color: #FFFF00;
+}
+.f-content{
+	padding: 20px;
+	text-align: center;
+	border: 1px solid #e9ebea;
+}
+.f-content h2{
+	margin-top: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #000000;
+}
+.f-content p{
+	margin: 0 15px;
+	font-family: 'Cabin', sans-serif;
+	color: #444444;
+}
+/*features end*/
+
+/*short story start*/
+.story{
+	background-image: url(../images/company-girl.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+.s-content{
+	padding: 100px 0;
+}
+.s-h1{
+	margin: 0;
+	font-family: 'Cabin', sans-serif;
+	font-size: 48px;
+	color: #000000;
+}
+.s-content p{
+	margin: 30px 0 ;
+	font-family: 'Lato', sans-serif;
+	color: #444444;
+	word-spacing: 2px;
+}
+.s-btn{
+	padding: 10px 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #333333;
+	text-transform: uppercase;
+	background-color: #B9C2CB;
+	border: none;
+	border: 2px solid #B8BFC9;
+	border-radius: 5px;
+	transition: .3s linear;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+}
+.s-btn:hover{
+	background-color: #36c36e;
+}
+/*short story end*/
+
+/*experience start*/
+.experience{
+	padding: 100px 0;
+	background-image: url(../images/company-skill.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+	background-color: #353535;
+}
+.e-content{
+}
+.e-h1{
+	text-align: left;
+	color: #fff;
+}
+.e-content p{
+	color: #fff;
+	margin: 30px 0 20px;
+}
+.e-btn{
+	padding: 10px 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #36C36E !important;
+	border: none;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	transition: .3s linear;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+}
+.e-btn:hover{
+	color: #010101;
+	background-color: #FFFF00 !important;
+
+}
+.main-skill{
+	margin-top: 28px;
+}
+.e-level{}
+.e-level p{
+	margin: 0;
+	margin: 10px 0 5px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16.01px;
+	font-weight: 400;
+    color: #fff;
+}
+.color{
+	background-color: #36c36e;
+}
+/*experience end*/
+/*blog start*/
+.blog{
+	padding: 100px 0;
+}
+.b-img{}
+.b-img img{}
+.b-body{
+
+}
+.b-title{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: #000000;
+	letter-spacing: 1px;
+	line-height: 27px;
+}
+.list{
+	margin: 0;
+	margin-bottom: 10px;
+}
+.list li{
+	font-size: 14px;
+	color: #999999;
+}
+.list li i{
+	margin-right: 5px;
+}
+.b-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 16.01px;
+	color: #444444;
+    word-spacing: 3px;
+}
+/*blog end*/
+/*project start*/
+.project{
+	padding: 50px 0;
+	background-color: #36c36e;
+}
+.p-content h3{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 24.02px;
+	font-weight: 700;
+	color: #fff;
+}
+.p-content p{
+	margin: 0;
+	margin-top: 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 16.02px;
+	color: #fff;
+
+}
+.btn2{
+	background-color: #36c36e !important;
+	transition: .3s linear;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+}
+.btn2:hover{
+	color: 	#010101 !important;
+	background-color: #FFFF00 !important;
+}
+
+/*project end*/
+/*f-footer start*/
+.f-footer{
+	padding: 50px 0;
+	background-color: #232323;
+}
+.fo-logo{
+	margin-top: 80px;
+}
+.fo-content{}
+.fo-content h3{
+	margin: 0;
+	margin-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #999999;
+	text-transform: up
+}
+.fo-content p{
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #999999;
+}
+/*f-footer end*/
+/*footer start*/
+footer {
+	margin: 0;
+	padding-bottom: 5px;
+	background-color: #232323;
+}
+.f-copy {
+	text-align: center;
+	font-size: 18px;
+	color: #999999;
+	border-bottom: 1px solid #444444;
+}
+/*footer end*/

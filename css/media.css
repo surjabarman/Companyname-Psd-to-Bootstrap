@@ -1,0 +1,436 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+
+.menu ul li a {
+    padding: 3px 0px !important;
+    font-size: 17px;
+    text-align: left;
+}
+.b-content {
+    margin-left: 15px;
+    padding: 60px 0 80px;
+}
+.b-content h1 {
+    font-size: 30px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 40px;
+}
+.b-content p {
+    margin: 25px 0 30px;
+    font-size: 17px;
+}
+.btn-submit {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    height: 45px;
+}
+/*header end*/
+
+/*feature start*/
+.t-h1 {
+    font-size: 37px;
+}
+.f-content {
+    margin-bottom: 60px;
+}
+.f-content h2 {
+    font-size: 17px;
+}
+.features{
+    padding: 50px 0 20px;
+}
+/*feature end*/
+
+/*story start*/
+.story{
+    background-image: none;
+    background-color: #B5BEC7;
+}
+.s-content {
+    padding: 50px 0 80px;
+}
+.s-h1 {
+    font-size: 43px;
+}
+.s-btn {
+    background-color: #36C36E;
+    margin-top: 20px;
+    padding: 10px 45px !important;
+}
+.s-btn:hover {
+    background-color: yellow !important;
+}
+
+}
+/*story end*/
+
+/*experience start*/
+.experience{
+    padding: 50px 0 80px;
+}
+.e-btn {
+    margin-bottom: 60px;
+    margin-top: 20px;
+    padding: 10px 65px !important;
+}
+/*experience end*/
+
+/*blog start*/
+.blog {
+    padding: 50px 0 40px;
+}
+.t-h1 {
+    font-size: 40px;
+}
+.b-title {
+    letter-spacing: 1px;
+}
+.b-text {
+    word-spacing: 1px;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    margin-bottom: 40px;
+}
+/*blog end*/
+
+/*project start*/
+.project {
+    padding: 60px 0 20px;
+}
+.p-content{
+    text-align: center;
+}
+.btn2 {
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+}
+
+/*project end*/
+
+/*footer start*/
+.f-footer {
+    padding: 50px 0 80px;
+    text-align: center;
+}
+.fo-logo {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fo-content {
+    padding: 20px 0;
+}
+/*footer end*/
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.menu ul li a {
+    padding: 3px 0px !important;
+    font-size: 18px;
+    text-align: left;
+}
+.b-content {
+    margin-left: 15px !important;
+    padding: 50px 0 80px !important;
+}
+.b-content h1 {
+    font-size: 36px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 40px;
+}
+.b-content p {
+    margin: 25px 0 30px;
+    font-size: 19px;
+}
+.btn-submit {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 45px;
+}
+/*header end*/
+
+/*feature start*/
+.features{
+    padding: 60px 0 80px;
+}
+.t-h1 {
+    font-size: 45px;
+}
+.f-content {
+    margin-bottom: 60px;
+    padding: 30px 46px;
+
+}
+.f-content h2 {
+    font-size: 17px;
+}
+.f-last{
+    margin-bottom: 0;
+}
+/*feature end*/
+
+/*story start*/
+.story{
+    background-image: none;
+    background-color: #B5BEC7;
+}
+.s-content {
+    padding: 60px 0 80px;
+}
+.s-h1 {
+    font-size: 43px;
+}
+.s-btn {
+    background-color: #36C36E;
+    margin-top: 20px;
+    padding: 10px 45px !important;
+}
+.s-btn:hover {
+    background-color: yellow !important;
+}
+
+/*story end*/
+
+/*experience start*/
+.experience{
+    padding: 50px 0 80px;
+}
+/*experience end*/
+
+/*blog start*/
+.blog {
+    padding: 60px 0 40px;
+}
+.t-h1 {
+    font-size: 45px;
+}
+.b-title {
+    letter-spacing: 1px;
+}
+.b-text {
+    word-spacing: 1px;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    margin-bottom: 40px;
+}
+/*blog end*/
+
+/*project start*/
+.project {
+    padding: 60px 0 30px;
+}
+.p-content {
+    text-align: none;
+    text-align: left; 
+}
+.e-btn {
+    margin-top: 20px;
+    padding-bottom: 0;
+    padding: 0px 10px!important;
+}
+/*project end*/
+
+/*footer start*/
+.f-footer {
+    padding: 60px 0 80px;
+    text-align: center;
+}
+.fo-logo {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.fo-content {
+    padding: 20px 0;
+}
+/*footer end*/
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.menu ul li a {
+    padding: 3px 0px !important;
+    font-size: 18px;
+    text-align: left;
+}
+.b-content {
+    margin-left: 15px;
+    padding: 70px 0 100px;
+}
+.b-content h1 {
+    font-size: 55px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 55px;
+}
+.b-content p {
+    margin: 35px 0;
+    font-size: 20px;
+    word-spacing: 3px;
+}
+.btn-submit {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 45px;
+}
+/*header end*/
+
+/*feature start*/
+.features{
+    padding: 70px 0 100px;
+}
+.t-h1 {
+    font-size: 45px;
+}
+.f-content {
+    padding: 30px 0px;
+}
+.f-content h2 {
+    font-size: 17px !important;
+}
+
+/*feature end*/
+
+/*story start*/
+.story{
+    background-image: none;
+    background-color: #B5BEC7;
+}
+.s-content {
+    padding: 60px 0 80px;
+}
+.s-h1 {
+    font-size: 43px;
+}
+.s-btn {
+    background-color: #36C36E;
+    margin-top: 20px;
+    padding: 10px 40px !important;
+}
+.s-btn:hover {
+    background-color: yellow !important;
+}
+/*story end*/
+
+/*experience*/
+.e-level p {
+    margin-top: 28px !important;
+}
+/*experience*/
+
+
+/*blog start*/
+.blog {
+    padding: 70px 0 90px;
+}
+.t-h1 {
+    font-size: 45px;
+}
+.b-title {
+    letter-spacing: 1px;
+}
+.list li {
+    font-size: 16px;
+}
+.b-text {
+    word-spacing: 1px;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+}
+/*blog end*/
+
+/*project start*/
+.project {
+    padding: 60px 0 80px;
+}
+
+.p-content {
+    text-align: left;
+}
+.e-btn {
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding: 10px 16px !important;
+}
+/*project end*/
+
+/*footer start*/
+.f-footer {
+    padding: 70px 0 50px;
+}
+.fo-logo {
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+.fo-content {
+    padding: 30px 0;
+    text-align: left;
+}
+
+/*footer end*/
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*feature start*/
+.t-h1 {
+    font-size: 45px;
+}
+/*feature end*/
+/*project*/
+.p-content {
+    text-align: left;
+}
+/*project*/
+/*footer start*/
+.fo-logo {
+    margin-top: 80px !important;
+     text-align: left;
+}
+.fo-content {
+    padding: 30px 0;
+    text-align: left;
+}
+/*footer end*/
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+/*project*/
+.p-content {
+    text-align: left;
+}
+/*project*/
+
+/*footer start*/
+.fo-logo {
+    margin-top: 80px !important;
+     text-align: left;
+}
+.fo-content {
+    padding: 30px 0;
+    text-align: left;
+}
+
+
+/*footer end*/
+
+
+}
